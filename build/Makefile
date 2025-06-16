@@ -175,6 +175,19 @@ ChatRoom/fast:
 .PHONY : ChatRoom/fast
 
 #=============================================================================
+# Target rules for targets named clean-all
+
+# Build rule for target.
+clean-all: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean-all
+.PHONY : clean-all
+
+# fast build rule for target.
+clean-all/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/build
+.PHONY : clean-all/fast
+
+#=============================================================================
 # Target rules for targets named ChatRoom_autogen_timestamp_deps
 
 # Build rule for target.
@@ -224,269 +237,269 @@ ChatRoom_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.s
 .PHONY : ChatRoom_autogen/mocs_compilation.cpp.s
 
-chatclient.o: chatclient.cpp.o
-.PHONY : chatclient.o
+src/core/database.o: src/core/database.cpp.o
+.PHONY : src/core/database.o
 
 # target to build an object file
-chatclient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/chatclient.cpp.o
-.PHONY : chatclient.cpp.o
+src/core/database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/database.cpp.o
+.PHONY : src/core/database.cpp.o
 
-chatclient.i: chatclient.cpp.i
-.PHONY : chatclient.i
+src/core/database.i: src/core/database.cpp.i
+.PHONY : src/core/database.i
 
 # target to preprocess a source file
-chatclient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/chatclient.cpp.i
-.PHONY : chatclient.cpp.i
+src/core/database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/database.cpp.i
+.PHONY : src/core/database.cpp.i
 
-chatclient.s: chatclient.cpp.s
-.PHONY : chatclient.s
+src/core/database.s: src/core/database.cpp.s
+.PHONY : src/core/database.s
 
 # target to generate assembly for a file
-chatclient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/chatclient.cpp.s
-.PHONY : chatclient.cpp.s
+src/core/database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/database.cpp.s
+.PHONY : src/core/database.cpp.s
 
-chatserver.o: chatserver.cpp.o
-.PHONY : chatserver.o
+src/core/messagefilter.o: src/core/messagefilter.cpp.o
+.PHONY : src/core/messagefilter.o
 
 # target to build an object file
-chatserver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/chatserver.cpp.o
-.PHONY : chatserver.cpp.o
+src/core/messagefilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o
+.PHONY : src/core/messagefilter.cpp.o
 
-chatserver.i: chatserver.cpp.i
-.PHONY : chatserver.i
+src/core/messagefilter.i: src/core/messagefilter.cpp.i
+.PHONY : src/core/messagefilter.i
 
 # target to preprocess a source file
-chatserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/chatserver.cpp.i
-.PHONY : chatserver.cpp.i
+src/core/messagefilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.i
+.PHONY : src/core/messagefilter.cpp.i
 
-chatserver.s: chatserver.cpp.s
-.PHONY : chatserver.s
+src/core/messagefilter.s: src/core/messagefilter.cpp.s
+.PHONY : src/core/messagefilter.s
 
 # target to generate assembly for a file
-chatserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/chatserver.cpp.s
-.PHONY : chatserver.cpp.s
+src/core/messagefilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.s
+.PHONY : src/core/messagefilter.cpp.s
 
-database.o: database.cpp.o
-.PHONY : database.o
+src/core/userinfo.o: src/core/userinfo.cpp.o
+.PHONY : src/core/userinfo.o
 
 # target to build an object file
-database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/database.cpp.o
-.PHONY : database.cpp.o
+src/core/userinfo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o
+.PHONY : src/core/userinfo.cpp.o
 
-database.i: database.cpp.i
-.PHONY : database.i
+src/core/userinfo.i: src/core/userinfo.cpp.i
+.PHONY : src/core/userinfo.i
 
 # target to preprocess a source file
-database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/database.cpp.i
-.PHONY : database.cpp.i
+src/core/userinfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.i
+.PHONY : src/core/userinfo.cpp.i
 
-database.s: database.cpp.s
-.PHONY : database.s
+src/core/userinfo.s: src/core/userinfo.cpp.s
+.PHONY : src/core/userinfo.s
 
 # target to generate assembly for a file
-database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/database.cpp.s
-.PHONY : database.cpp.s
+src/core/userinfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.s
+.PHONY : src/core/userinfo.cpp.s
 
-loginwindow.o: loginwindow.cpp.o
-.PHONY : loginwindow.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-loginwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/loginwindow.cpp.o
-.PHONY : loginwindow.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-loginwindow.i: loginwindow.cpp.i
-.PHONY : loginwindow.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-loginwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/loginwindow.cpp.i
-.PHONY : loginwindow.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-loginwindow.s: loginwindow.cpp.s
-.PHONY : loginwindow.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-loginwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/loginwindow.cpp.s
-.PHONY : loginwindow.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/network/chatclient.o: src/network/chatclient.cpp.o
+.PHONY : src/network/chatclient.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/network/chatclient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o
+.PHONY : src/network/chatclient.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/network/chatclient.i: src/network/chatclient.cpp.i
+.PHONY : src/network/chatclient.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/network/chatclient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.i
+.PHONY : src/network/chatclient.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/network/chatclient.s: src/network/chatclient.cpp.s
+.PHONY : src/network/chatclient.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/network/chatclient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.s
+.PHONY : src/network/chatclient.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+src/network/chatserver.o: src/network/chatserver.cpp.o
+.PHONY : src/network/chatserver.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+src/network/chatserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o
+.PHONY : src/network/chatserver.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+src/network/chatserver.i: src/network/chatserver.cpp.i
+.PHONY : src/network/chatserver.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+src/network/chatserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.i
+.PHONY : src/network/chatserver.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+src/network/chatserver.s: src/network/chatserver.cpp.s
+.PHONY : src/network/chatserver.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+src/network/chatserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.s
+.PHONY : src/network/chatserver.cpp.s
 
-messagefilter.o: messagefilter.cpp.o
-.PHONY : messagefilter.o
+src/ui/dialogs/registerdialog.o: src/ui/dialogs/registerdialog.cpp.o
+.PHONY : src/ui/dialogs/registerdialog.o
 
 # target to build an object file
-messagefilter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/messagefilter.cpp.o
-.PHONY : messagefilter.cpp.o
+src/ui/dialogs/registerdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o
+.PHONY : src/ui/dialogs/registerdialog.cpp.o
 
-messagefilter.i: messagefilter.cpp.i
-.PHONY : messagefilter.i
+src/ui/dialogs/registerdialog.i: src/ui/dialogs/registerdialog.cpp.i
+.PHONY : src/ui/dialogs/registerdialog.i
 
 # target to preprocess a source file
-messagefilter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/messagefilter.cpp.i
-.PHONY : messagefilter.cpp.i
+src/ui/dialogs/registerdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.i
+.PHONY : src/ui/dialogs/registerdialog.cpp.i
 
-messagefilter.s: messagefilter.cpp.s
-.PHONY : messagefilter.s
+src/ui/dialogs/registerdialog.s: src/ui/dialogs/registerdialog.cpp.s
+.PHONY : src/ui/dialogs/registerdialog.s
 
 # target to generate assembly for a file
-messagefilter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/messagefilter.cpp.s
-.PHONY : messagefilter.cpp.s
+src/ui/dialogs/registerdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.s
+.PHONY : src/ui/dialogs/registerdialog.cpp.s
 
-registerdialog.o: registerdialog.cpp.o
-.PHONY : registerdialog.o
+src/ui/dialogs/settingsdialog.o: src/ui/dialogs/settingsdialog.cpp.o
+.PHONY : src/ui/dialogs/settingsdialog.o
 
 # target to build an object file
-registerdialog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/registerdialog.cpp.o
-.PHONY : registerdialog.cpp.o
+src/ui/dialogs/settingsdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o
+.PHONY : src/ui/dialogs/settingsdialog.cpp.o
 
-registerdialog.i: registerdialog.cpp.i
-.PHONY : registerdialog.i
+src/ui/dialogs/settingsdialog.i: src/ui/dialogs/settingsdialog.cpp.i
+.PHONY : src/ui/dialogs/settingsdialog.i
 
 # target to preprocess a source file
-registerdialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/registerdialog.cpp.i
-.PHONY : registerdialog.cpp.i
+src/ui/dialogs/settingsdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.i
+.PHONY : src/ui/dialogs/settingsdialog.cpp.i
 
-registerdialog.s: registerdialog.cpp.s
-.PHONY : registerdialog.s
+src/ui/dialogs/settingsdialog.s: src/ui/dialogs/settingsdialog.cpp.s
+.PHONY : src/ui/dialogs/settingsdialog.s
 
 # target to generate assembly for a file
-registerdialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/registerdialog.cpp.s
-.PHONY : registerdialog.cpp.s
+src/ui/dialogs/settingsdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.s
+.PHONY : src/ui/dialogs/settingsdialog.cpp.s
 
-settingsdialog.o: settingsdialog.cpp.o
-.PHONY : settingsdialog.o
+src/ui/dialogs/usermanagerdialog.o: src/ui/dialogs/usermanagerdialog.cpp.o
+.PHONY : src/ui/dialogs/usermanagerdialog.o
 
 # target to build an object file
-settingsdialog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o
-.PHONY : settingsdialog.cpp.o
+src/ui/dialogs/usermanagerdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o
+.PHONY : src/ui/dialogs/usermanagerdialog.cpp.o
 
-settingsdialog.i: settingsdialog.cpp.i
-.PHONY : settingsdialog.i
+src/ui/dialogs/usermanagerdialog.i: src/ui/dialogs/usermanagerdialog.cpp.i
+.PHONY : src/ui/dialogs/usermanagerdialog.i
 
 # target to preprocess a source file
-settingsdialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/settingsdialog.cpp.i
-.PHONY : settingsdialog.cpp.i
+src/ui/dialogs/usermanagerdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.i
+.PHONY : src/ui/dialogs/usermanagerdialog.cpp.i
 
-settingsdialog.s: settingsdialog.cpp.s
-.PHONY : settingsdialog.s
+src/ui/dialogs/usermanagerdialog.s: src/ui/dialogs/usermanagerdialog.cpp.s
+.PHONY : src/ui/dialogs/usermanagerdialog.s
 
 # target to generate assembly for a file
-settingsdialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/settingsdialog.cpp.s
-.PHONY : settingsdialog.cpp.s
+src/ui/dialogs/usermanagerdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.s
+.PHONY : src/ui/dialogs/usermanagerdialog.cpp.s
 
-userinfo.o: userinfo.cpp.o
-.PHONY : userinfo.o
+src/ui/windows/loginwindow.o: src/ui/windows/loginwindow.cpp.o
+.PHONY : src/ui/windows/loginwindow.o
 
 # target to build an object file
-userinfo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/userinfo.cpp.o
-.PHONY : userinfo.cpp.o
+src/ui/windows/loginwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o
+.PHONY : src/ui/windows/loginwindow.cpp.o
 
-userinfo.i: userinfo.cpp.i
-.PHONY : userinfo.i
+src/ui/windows/loginwindow.i: src/ui/windows/loginwindow.cpp.i
+.PHONY : src/ui/windows/loginwindow.i
 
 # target to preprocess a source file
-userinfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/userinfo.cpp.i
-.PHONY : userinfo.cpp.i
+src/ui/windows/loginwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.i
+.PHONY : src/ui/windows/loginwindow.cpp.i
 
-userinfo.s: userinfo.cpp.s
-.PHONY : userinfo.s
+src/ui/windows/loginwindow.s: src/ui/windows/loginwindow.cpp.s
+.PHONY : src/ui/windows/loginwindow.s
 
 # target to generate assembly for a file
-userinfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/userinfo.cpp.s
-.PHONY : userinfo.cpp.s
+src/ui/windows/loginwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.s
+.PHONY : src/ui/windows/loginwindow.cpp.s
 
-usermanagerdialog.o: usermanagerdialog.cpp.o
-.PHONY : usermanagerdialog.o
+src/ui/windows/mainwindow.o: src/ui/windows/mainwindow.cpp.o
+.PHONY : src/ui/windows/mainwindow.o
 
 # target to build an object file
-usermanagerdialog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o
-.PHONY : usermanagerdialog.cpp.o
+src/ui/windows/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o
+.PHONY : src/ui/windows/mainwindow.cpp.o
 
-usermanagerdialog.i: usermanagerdialog.cpp.i
-.PHONY : usermanagerdialog.i
+src/ui/windows/mainwindow.i: src/ui/windows/mainwindow.cpp.i
+.PHONY : src/ui/windows/mainwindow.i
 
 # target to preprocess a source file
-usermanagerdialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.i
-.PHONY : usermanagerdialog.cpp.i
+src/ui/windows/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.i
+.PHONY : src/ui/windows/mainwindow.cpp.i
 
-usermanagerdialog.s: usermanagerdialog.cpp.s
-.PHONY : usermanagerdialog.s
+src/ui/windows/mainwindow.s: src/ui/windows/mainwindow.cpp.s
+.PHONY : src/ui/windows/mainwindow.s
 
 # target to generate assembly for a file
-usermanagerdialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.s
-.PHONY : usermanagerdialog.cpp.s
+src/ui/windows/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatRoom.dir/build.make CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.s
+.PHONY : src/ui/windows/mainwindow.cpp.s
 
 # Help Target
 help:
@@ -502,43 +515,44 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ChatRoom_autogen"
 	@echo "... ChatRoom_autogen_timestamp_deps"
+	@echo "... clean-all"
 	@echo "... ChatRoom"
 	@echo "... ChatRoom_autogen/mocs_compilation.o"
 	@echo "... ChatRoom_autogen/mocs_compilation.i"
 	@echo "... ChatRoom_autogen/mocs_compilation.s"
-	@echo "... chatclient.o"
-	@echo "... chatclient.i"
-	@echo "... chatclient.s"
-	@echo "... chatserver.o"
-	@echo "... chatserver.i"
-	@echo "... chatserver.s"
-	@echo "... database.o"
-	@echo "... database.i"
-	@echo "... database.s"
-	@echo "... loginwindow.o"
-	@echo "... loginwindow.i"
-	@echo "... loginwindow.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
-	@echo "... messagefilter.o"
-	@echo "... messagefilter.i"
-	@echo "... messagefilter.s"
-	@echo "... registerdialog.o"
-	@echo "... registerdialog.i"
-	@echo "... registerdialog.s"
-	@echo "... settingsdialog.o"
-	@echo "... settingsdialog.i"
-	@echo "... settingsdialog.s"
-	@echo "... userinfo.o"
-	@echo "... userinfo.i"
-	@echo "... userinfo.s"
-	@echo "... usermanagerdialog.o"
-	@echo "... usermanagerdialog.i"
-	@echo "... usermanagerdialog.s"
+	@echo "... src/core/database.o"
+	@echo "... src/core/database.i"
+	@echo "... src/core/database.s"
+	@echo "... src/core/messagefilter.o"
+	@echo "... src/core/messagefilter.i"
+	@echo "... src/core/messagefilter.s"
+	@echo "... src/core/userinfo.o"
+	@echo "... src/core/userinfo.i"
+	@echo "... src/core/userinfo.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/network/chatclient.o"
+	@echo "... src/network/chatclient.i"
+	@echo "... src/network/chatclient.s"
+	@echo "... src/network/chatserver.o"
+	@echo "... src/network/chatserver.i"
+	@echo "... src/network/chatserver.s"
+	@echo "... src/ui/dialogs/registerdialog.o"
+	@echo "... src/ui/dialogs/registerdialog.i"
+	@echo "... src/ui/dialogs/registerdialog.s"
+	@echo "... src/ui/dialogs/settingsdialog.o"
+	@echo "... src/ui/dialogs/settingsdialog.i"
+	@echo "... src/ui/dialogs/settingsdialog.s"
+	@echo "... src/ui/dialogs/usermanagerdialog.o"
+	@echo "... src/ui/dialogs/usermanagerdialog.i"
+	@echo "... src/ui/dialogs/usermanagerdialog.s"
+	@echo "... src/ui/windows/loginwindow.o"
+	@echo "... src/ui/windows/loginwindow.i"
+	@echo "... src/ui/windows/loginwindow.s"
+	@echo "... src/ui/windows/mainwindow.o"
+	@echo "... src/ui/windows/mainwindow.i"
+	@echo "... src/ui/windows/mainwindow.s"
 .PHONY : help
 
 

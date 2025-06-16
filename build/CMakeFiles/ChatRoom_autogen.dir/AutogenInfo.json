@@ -524,8 +524,7 @@
 		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
 		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-release.cmake",
 		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
-		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake",
-		"/Users/kei/Project/Qt/build_cmake.sh.in"
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/kei/Project/Qt",
 	"CROSS_CONFIG" : false,
@@ -534,63 +533,63 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/kei/Project/Qt/chatclient.h",
+			"/Users/kei/Project/Qt/src/core/database.h",
 			"MU",
-			"EWIEGA46WW/moc_chatclient.cpp",
+			"PRMOGMWJPH/moc_database.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/chatserver.h",
+			"/Users/kei/Project/Qt/src/core/messagefilter.h",
 			"MU",
-			"EWIEGA46WW/moc_chatserver.cpp",
+			"PRMOGMWJPH/moc_messagefilter.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/database.h",
+			"/Users/kei/Project/Qt/src/core/userinfo.h",
 			"MU",
-			"EWIEGA46WW/moc_database.cpp",
+			"PRMOGMWJPH/moc_userinfo.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/loginwindow.h",
+			"/Users/kei/Project/Qt/src/network/chatclient.h",
 			"MU",
-			"EWIEGA46WW/moc_loginwindow.cpp",
+			"UFQQIFJZKK/moc_chatclient.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/mainwindow.h",
+			"/Users/kei/Project/Qt/src/network/chatserver.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"UFQQIFJZKK/moc_chatserver.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/messagefilter.h",
+			"/Users/kei/Project/Qt/src/ui/dialogs/registerdialog.h",
 			"MU",
-			"EWIEGA46WW/moc_messagefilter.cpp",
+			"IYECXEJARV/moc_registerdialog.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/registerdialog.h",
+			"/Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.h",
 			"MU",
-			"EWIEGA46WW/moc_registerdialog.cpp",
+			"IYECXEJARV/moc_settingsdialog.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/settingsdialog.h",
+			"/Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.h",
 			"MU",
-			"EWIEGA46WW/moc_settingsdialog.cpp",
+			"IYECXEJARV/moc_usermanagerdialog.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/userinfo.h",
+			"/Users/kei/Project/Qt/src/ui/windows/loginwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_userinfo.cpp",
+			"Q6PPXN4TKV/moc_loginwindow.cpp",
 			null
 		],
 		[
-			"/Users/kei/Project/Qt/usermanagerdialog.h",
+			"/Users/kei/Project/Qt/src/ui/windows/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_usermanagerdialog.cpp",
+			"Q6PPXN4TKV/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -615,6 +614,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/Users/kei/Project/Qt/src",
 		"/opt/homebrew/opt/qt6/lib/QtCore.framework/Headers",
 		"/opt/homebrew/opt/qt6/lib/QtCore.framework",
 		"/opt/homebrew/opt/qt6/share/qt/mkspecs/macx-clang",
@@ -666,17 +666,21 @@
 	"SETTINGS_FILE" : "/Users/kei/Project/Qt/build/CMakeFiles/ChatRoom_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/kei/Project/Qt/chatclient.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/chatserver.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/database.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/loginwindow.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/main.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/mainwindow.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/messagefilter.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/registerdialog.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/settingsdialog.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/userinfo.cpp", "MU", null ],
-		[ "/Users/kei/Project/Qt/usermanagerdialog.cpp", "MU", null ]
+		[ "/Users/kei/Project/Qt/src/core/database.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/core/messagefilter.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/core/userinfo.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/main.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/network/chatclient.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/network/chatserver.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp", "MU", null ],
+		[
+			"/Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp", "MU", null ],
+		[ "/Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

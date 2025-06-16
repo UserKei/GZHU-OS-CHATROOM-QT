@@ -1,7 +1,7 @@
 CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o: \
   /Users/kei/Project/Qt/build/ChatRoom_autogen/mocs_compilation.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_chatclient.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../chatclient.h \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/UFQQIFJZKK/moc_chatclient.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/UFQQIFJZKK/../../../src/network/chatclient.h \
   /opt/homebrew/opt/qt6/lib/QtNetwork.framework/Headers/QTcpSocket \
   /opt/homebrew/opt/qt6/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/opt/qt6/include/QtNetwork/qtnetworkglobal.h \
@@ -958,8 +958,8 @@ CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtCore/qtmocconstants.h \
   /opt/homebrew/opt/qt6/include/QtCore/q20algorithm.h \
   /opt/homebrew/opt/qt6/include/QtCore/q23type_traits.h \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_chatserver.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../chatserver.h \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/UFQQIFJZKK/moc_chatserver.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/UFQQIFJZKK/../../../src/network/chatserver.h \
   /opt/homebrew/opt/qt6/lib/QtNetwork.framework/Headers/QTcpServer \
   /opt/homebrew/opt/qt6/lib/QtNetwork.framework/Headers/qtcpserver.h \
   /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QTimer \
@@ -969,10 +969,10 @@ CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtCore/qeventloop.h \
   /opt/homebrew/opt/qt6/include/QtCore/qdeadlinetimer.h \
   /opt/homebrew/opt/qt6/include/QtCore/qelapsedtimer.h \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_loginwindow.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../loginwindow.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/IYECXEJARV/moc_registerdialog.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/IYECXEJARV/../../../src/ui/dialogs/registerdialog.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QDialog \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/opt/qt6/include/QtGui/qtguiglobal.h \
   /opt/homebrew/opt/qt6/include/QtGui/qtgui-config.h \
@@ -1008,7 +1008,6 @@ CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/opt/qt6/include/QtGui/qcursor.h \
   /opt/homebrew/opt/qt6/include/QtGui/qbitmap.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qframe.h \
@@ -1030,28 +1029,41 @@ CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/IYECXEJARV/moc_settingsdialog.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/IYECXEJARV/../../../src/ui/dialogs/settingsdialog.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QSpinBox \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qspinbox.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/opt/qt6/include/QtGui/qvalidator.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QGroupBox \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qgroupbox.h \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../mainwindow.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/IYECXEJARV/moc_usermanagerdialog.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/IYECXEJARV/../../../src/ui/dialogs/usermanagerdialog.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qlistview.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemview.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/opt/qt6/include/QtCore/qabstractitemmodel.h \
   /opt/homebrew/opt/qt6/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemdelegate.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qstyleoption.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractspinbox.h \
-  /opt/homebrew/opt/qt6/include/QtGui/qvalidator.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qslider.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qstyle.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QCheckBox \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qcheckbox.h \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/Q6PPXN4TKV/moc_loginwindow.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/Q6PPXN4TKV/../../../src/ui/windows/loginwindow.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/Q6PPXN4TKV/moc_mainwindow.cpp \
+  /Users/kei/Project/Qt/build/ChatRoom_autogen/Q6PPXN4TKV/../../../src/ui/windows/mainwindow.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QComboBox \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QSplitter \
@@ -1065,15 +1077,5 @@ CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt6/lib/QtGui.framework/Headers/qaction.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStatusBar \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstatusbar.h \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_registerdialog.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../registerdialog.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QDialog \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qdialog.h \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_settingsdialog.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../settingsdialog.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QSpinBox \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qspinbox.h \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/moc_usermanagerdialog.cpp \
-  /Users/kei/Project/Qt/build/ChatRoom_autogen/EWIEGA46WW/../../../usermanagerdialog.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QCheckBox \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qcheckbox.h
+  /Users/kei/Project/Qt/src/network/chatclient.h \
+  /Users/kei/Project/Qt/src/network/chatserver.h

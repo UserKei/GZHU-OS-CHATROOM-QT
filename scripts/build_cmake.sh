@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# CMake构建脚本 - 聊天室管理系统
+
+PROJECT_DIR="/Users/kei/Project/Qt"
+BUILD_DIR="$PROJECT_DIR/build"
+
+echo "开始使用CMake构建聊天室管理系统..."
+echo "项目结构已优化，模块化设计"
+echo ""
+
+# 检查CMake是否安装
+if ! command -v cmake &> /dev/null; then
+    echo "错误: 未找到cmake命令，请先安装CMake"
+    echo "可以使用以下命令安装:"
+    echo "brew install cmake"
+    exit 1
+fi
+
+# 检查Qt环境
+if ! command -v qmake &> /dev/null && [ -z "$Qt6_DIR" ] && [ -z "$Qt5_DIR" ]; then
+    echo "警告: 未检测到Qt环境变量，CMake会尝试自动查找Qt"
+    echo "如果构建失败，请确保已安装Qt并设置相应的环境变量"
+fi
+
+# 创建并进入构建目录
+echo "创建构建目录..."
+mkdir -p "$BUILD_DIR"
+cd "$BUILD_DIR"
+
+# 配置项目
+echo "配置CMake项目..."
+cmake .. -DCMAKE_BUILD_TYPE=Release
+
+if [ $? -ne 0 ]; then
+    echo "错误: CMake配置失败"
+    exit 1
+fi
+
+# 编译项目
+echo "编译项目..."
+cmake --build . --config Release -j$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)
+
+if [ $? -eq 0 ]; then
+    echo ""
+    echo "构建成功！"
+    echo "可执行文件位置: $BUILD_DIR/bin/ChatRoom"
+    echo ""
+    echo "使用方法:"
+    echo "1. 运行 $BUILD_DIR/bin/ChatRoom"
+    echo "2. 注册新用户或使用现有用户登录"
+    echo "3. 如提示连接服务器失败，点击菜单栏'服务器' -> '启动服务器'"
+    echo "4. 可以启动多个实例来测试多用户聊天"
+    echo ""
+    echo "也可以安装到系统目录:"
+    echo "sudo cmake --install . --prefix /usr/local"
+else
+    echo "构建失败！请检查错误信息"
+    exit 1
+fi

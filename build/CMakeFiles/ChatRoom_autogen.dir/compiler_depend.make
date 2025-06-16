@@ -732,28 +732,27 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
   CMakeFiles/4.0.2/CMakeCXXCompiler.cmake \
   CMakeFiles/4.0.2/CMakeSystem.cmake \
   ChatRoom_autogen/moc_predefs.h \
-  /Users/kei/Project/Qt/build_cmake.sh.in \
-  /Users/kei/Project/Qt/chatclient.cpp \
-  /Users/kei/Project/Qt/chatclient.h \
-  /Users/kei/Project/Qt/chatserver.cpp \
-  /Users/kei/Project/Qt/chatserver.h \
-  /Users/kei/Project/Qt/database.cpp \
-  /Users/kei/Project/Qt/database.h \
-  /Users/kei/Project/Qt/loginwindow.cpp \
-  /Users/kei/Project/Qt/loginwindow.h \
-  /Users/kei/Project/Qt/main.cpp \
-  /Users/kei/Project/Qt/mainwindow.cpp \
-  /Users/kei/Project/Qt/mainwindow.h \
-  /Users/kei/Project/Qt/messagefilter.cpp \
-  /Users/kei/Project/Qt/messagefilter.h \
-  /Users/kei/Project/Qt/registerdialog.cpp \
-  /Users/kei/Project/Qt/registerdialog.h \
-  /Users/kei/Project/Qt/settingsdialog.cpp \
-  /Users/kei/Project/Qt/settingsdialog.h \
-  /Users/kei/Project/Qt/userinfo.cpp \
-  /Users/kei/Project/Qt/userinfo.h \
-  /Users/kei/Project/Qt/usermanagerdialog.cpp \
-  /Users/kei/Project/Qt/usermanagerdialog.h \
+  /Users/kei/Project/Qt/src/core/database.cpp \
+  /Users/kei/Project/Qt/src/core/database.h \
+  /Users/kei/Project/Qt/src/core/messagefilter.cpp \
+  /Users/kei/Project/Qt/src/core/messagefilter.h \
+  /Users/kei/Project/Qt/src/core/userinfo.cpp \
+  /Users/kei/Project/Qt/src/core/userinfo.h \
+  /Users/kei/Project/Qt/src/main.cpp \
+  /Users/kei/Project/Qt/src/network/chatclient.cpp \
+  /Users/kei/Project/Qt/src/network/chatclient.h \
+  /Users/kei/Project/Qt/src/network/chatserver.cpp \
+  /Users/kei/Project/Qt/src/network/chatserver.h \
+  /Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp \
+  /Users/kei/Project/Qt/src/ui/dialogs/registerdialog.h \
+  /Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp \
+  /Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.h \
+  /Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp \
+  /Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.h \
+  /Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp \
+  /Users/kei/Project/Qt/src/ui/windows/loginwindow.h \
+  /Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp \
+  /Users/kei/Project/Qt/src/ui/windows/mainwindow.h \
   /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
   /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
   /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QTimer \
@@ -1452,6 +1451,8 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 
 /opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
+/opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
 /opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
@@ -1495,6 +1496,8 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 /opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
 
@@ -1543,6 +1546,8 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake:
+
+/opt/homebrew/opt/qt6/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
 
@@ -1770,6 +1775,10 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 
+/opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/opt/homebrew/opt/qt6/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
+
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6/Qt6Config.cmake:
@@ -1817,8 +1826,6 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
 
@@ -1939,8 +1946,6 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QLabel:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QHBoxLayout:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QGroupBox:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QDialog:
 
@@ -2100,13 +2105,15 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qset.h:
 
+/opt/homebrew/opt/qt6/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateConfig.cmake:
+
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h:
+
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h:
+
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qframe.h:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qrefcount.h:
-
-/opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qpoint.h:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qpair.h:
 
@@ -2248,45 +2255,33 @@ ChatRoom_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20iterator.h:
 
-/Users/kei/Project/Qt/usermanagerdialog.cpp:
+/Users/kei/Project/Qt/src/ui/windows/loginwindow.h:
 
-/opt/homebrew/opt/qt6/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
+/opt/homebrew/opt/qt6/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
 
-/Users/kei/Project/Qt/settingsdialog.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
-/Users/kei/Project/Qt/settingsdialog.cpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h:
 
-/Users/kei/Project/Qt/registerdialog.h:
+/Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp:
 
-/Users/kei/Project/Qt/messagefilter.h:
+/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+/Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp:
 
-/opt/homebrew/opt/qt6/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
+/Users/kei/Project/Qt/src/network/chatserver.h:
 
-/Users/kei/Project/Qt/messagefilter.cpp:
+/Users/kei/Project/Qt/src/network/chatserver.cpp:
 
-/Users/kei/Project/Qt/mainwindow.cpp:
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QGroupBox:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h:
+/Users/kei/Project/Qt/src/network/chatclient.cpp:
 
-/Users/kei/Project/Qt/database.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h:
 
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QTimer:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
-
-/Users/kei/Project/Qt/chatserver.h:
-
-/opt/homebrew/opt/qt6/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateConfig.cmake:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h:
-
-/Users/kei/Project/Qt/chatserver.cpp:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
-
-/Users/kei/Project/Qt/chatclient.cpp:
+/Users/kei/Project/Qt/src/core/userinfo.h:
 
 CMakeFiles/4.0.2/CMakeSystem.cmake:
 
@@ -2353,6 +2348,12 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 /opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
+
+/opt/homebrew/opt/qt6/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
+
+/Users/kei/Project/Qt/src/network/chatclient.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
 
@@ -2478,6 +2479,12 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
 
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qjsonvalue.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/out_ptr.h:
+
+/Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
@@ -2500,13 +2507,15 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+
+/Users/kei/Project/Qt/src/core/messagefilter.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/identity.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:
-
-/Users/kei/Project/Qt/build_cmake.sh.in:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:
 
@@ -2652,7 +2661,7 @@ ChatRoom_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
-/Users/kei/Project/Qt/main.cpp:
+/Users/kei/Project/Qt/src/main.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
 
@@ -2667,10 +2676,6 @@ ChatRoom_autogen/moc_predefs.h:
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qrect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h:
-
-/Users/kei/Project/Qt/database.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h:
 
@@ -2736,6 +2741,16 @@ ChatRoom_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
+
+/Users/kei/Project/Qt/src/ui/dialogs/registerdialog.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_arg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h:
@@ -2745,10 +2760,6 @@ ChatRoom_autogen/moc_predefs.h:
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Gui/Qt6QJp2PluginTargets-release.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h:
 
@@ -2892,10 +2903,6 @@ ChatRoom_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler:
-
-/Users/kei/Project/Qt/chatclient.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits:
@@ -2932,6 +2939,10 @@ ChatRoom_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
+
+/Users/kei/Project/Qt/src/core/database.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare:
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
@@ -2965,8 +2976,6 @@ ChatRoom_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/size.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h:
-
-/Users/kei/Project/Qt/userinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
 
@@ -3059,10 +3068,6 @@ ChatRoom_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
-
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qjsonvalue.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/out_ptr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:
 
@@ -3286,10 +3291,6 @@ ChatRoom_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
 
-/opt/homebrew/opt/qt6/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h:
@@ -3305,6 +3306,8 @@ ChatRoom_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/data.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory.h:
+
+/Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.h:
 
 /opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
 
@@ -3366,6 +3369,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/invoke.h:
 
+/Users/kei/Project/Qt/src/core/userinfo.cpp:
+
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtNetwork.framework/Versions/A/Headers/qtcpsocket.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/desugars_to.h:
@@ -3385,8 +3390,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qmalloc.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h:
 
@@ -3422,19 +3425,15 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/data.h:
 
-/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h:
+
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QTimer:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
@@ -3500,8 +3499,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qjsonobject.h:
@@ -3511,6 +3508,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
 
@@ -3612,6 +3611,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
+/Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/tuple.h:
 
 /opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
@@ -3621,8 +3622,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h:
-
-/Users/kei/Project/Qt/userinfo.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:
 
@@ -3635,8 +3634,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qmap.h:
-
-/Users/kei/Project/Qt/loginwindow.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
 
@@ -3710,12 +3707,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
 
-/opt/homebrew/opt/qt6/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
@@ -3745,6 +3736,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qcompare.h:
+
+/Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp:
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake:
 
@@ -3777,12 +3770,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/empty.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
-
-/opt/homebrew/opt/qt6/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-release.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h:
-
-/Users/kei/Project/Qt/loginwindow.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
 
@@ -3868,6 +3855,10 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
+
+/Users/kei/Project/Qt/src/core/database.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/dependent_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h:
@@ -3883,6 +3874,10 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
+
+/opt/homebrew/opt/qt6/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-release.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
 
@@ -3972,10 +3967,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
-/opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/Users/kei/Project/Qt/mainwindow.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:
@@ -3999,6 +3990,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout:
 
@@ -4029,6 +4022,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/prev.h:
+
+/Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
 
@@ -4076,8 +4071,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h:
@@ -4087,6 +4080,12 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
+
+/opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
+
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qpoint.h:
+
+/Users/kei/Project/Qt/src/ui/windows/mainwindow.h:
 
 /opt/homebrew/opt/qt6/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
 
@@ -4109,10 +4108,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
-
-/opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/Users/kei/Project/Qt/registerdialog.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
@@ -4153,8 +4148,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
-
-/Users/kei/Project/Qt/usermanagerdialog.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
@@ -4200,6 +4193,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h:
 
+/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
 
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
@@ -4207,6 +4202,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
+
+/Users/kei/Project/Qt/src/core/messagefilter.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_locale_t.h:
 

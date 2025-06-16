@@ -1,4 +1,5 @@
 /Users/kei/Project/Qt/build/CMakeFiles/ChatRoom.dir
+/Users/kei/Project/Qt/build/CMakeFiles/clean-all.dir
 /Users/kei/Project/Qt/build/CMakeFiles/edit_cache.dir
 /Users/kei/Project/Qt/build/CMakeFiles/rebuild_cache.dir
 /Users/kei/Project/Qt/build/CMakeFiles/list_install_components.dir

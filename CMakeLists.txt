@@ -18,37 +18,48 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-# 源文件
-set(SOURCES
-    main.cpp
-    mainwindow.cpp
-    chatclient.cpp
-    chatserver.cpp
-    userinfo.cpp
-    messagefilter.cpp
-    database.cpp
-    loginwindow.cpp
-    registerdialog.cpp
-    usermanagerdialog.cpp
-    settingsdialog.cpp
+# 核心模块源文件
+set(CORE_SOURCES
+    src/core/database.cpp
+    src/core/userinfo.cpp
+    src/core/messagefilter.cpp
 )
 
-# 头文件
-set(HEADERS
-    mainwindow.h
-    chatclient.h
-    chatserver.h
-    userinfo.h
-    messagefilter.h
-    database.h
-    loginwindow.h
-    registerdialog.h
-    usermanagerdialog.h
-    settingsdialog.h
+# 网络模块源文件
+set(NETWORK_SOURCES
+    src/network/chatclient.cpp
+    src/network/chatserver.cpp
+)
+
+# UI模块源文件
+set(UI_SOURCES
+    src/ui/windows/loginwindow.cpp
+    src/ui/windows/mainwindow.cpp
+    src/ui/dialogs/registerdialog.cpp
+    src/ui/dialogs/usermanagerdialog.cpp
+    src/ui/dialogs/settingsdialog.cpp
+)
+
+# 主程序源文件
+set(MAIN_SOURCES
+    src/main.cpp
+)
+
+# 所有源文件
+set(ALL_SOURCES
+    ${MAIN_SOURCES}
+    ${CORE_SOURCES}
+    ${NETWORK_SOURCES}
+    ${UI_SOURCES}
 )
 
 # 创建可执行文件
-add_executable(ChatRoom ${SOURCES} ${HEADERS})
+add_executable(ChatRoom ${ALL_SOURCES})
+
+# 设置包含目录
+target_include_directories(ChatRoom PRIVATE
+    ${CMAKE_SOURCE_DIR}/src
+)
 
 # 链接Qt库
 if(Qt6_FOUND)
@@ -77,13 +88,6 @@ install(TARGETS ChatRoom
     RUNTIME DESTINATION bin
 )
 
-# 创建build目录的快捷脚本
-configure_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/build_cmake.sh.in"
-    "${CMAKE_CURRENT_SOURCE_DIR}/build_cmake.sh"
-    @ONLY
-)
-
 # 如果是macOS，设置bundle信息
 if(APPLE)
     set_target_properties(ChatRoom PROPERTIES
@@ -104,3 +108,9 @@ endif()
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     target_compile_definitions(ChatRoom PRIVATE DEBUG)
 endif()
+
+# 自定义目标：清理
+add_custom_target(clean-all
+    COMMAND ${CMAKE_BUILD_TOOL} clean
+    COMMENT "Cleaning all build files"
+)

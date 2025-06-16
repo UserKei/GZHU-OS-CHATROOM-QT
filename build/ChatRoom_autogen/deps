@@ -730,28 +730,27 @@ ChatRoom_autogen/timestamp: \
 	/Users/kei/Project/Qt/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake \
 	/Users/kei/Project/Qt/build/CMakeFiles/4.0.2/CMakeSystem.cmake \
 	/Users/kei/Project/Qt/build/ChatRoom_autogen/moc_predefs.h \
-	/Users/kei/Project/Qt/build_cmake.sh.in \
-	/Users/kei/Project/Qt/chatclient.cpp \
-	/Users/kei/Project/Qt/chatclient.h \
-	/Users/kei/Project/Qt/chatserver.cpp \
-	/Users/kei/Project/Qt/chatserver.h \
-	/Users/kei/Project/Qt/database.cpp \
-	/Users/kei/Project/Qt/database.h \
-	/Users/kei/Project/Qt/loginwindow.cpp \
-	/Users/kei/Project/Qt/loginwindow.h \
-	/Users/kei/Project/Qt/main.cpp \
-	/Users/kei/Project/Qt/mainwindow.cpp \
-	/Users/kei/Project/Qt/mainwindow.h \
-	/Users/kei/Project/Qt/messagefilter.cpp \
-	/Users/kei/Project/Qt/messagefilter.h \
-	/Users/kei/Project/Qt/registerdialog.cpp \
-	/Users/kei/Project/Qt/registerdialog.h \
-	/Users/kei/Project/Qt/settingsdialog.cpp \
-	/Users/kei/Project/Qt/settingsdialog.h \
-	/Users/kei/Project/Qt/userinfo.cpp \
-	/Users/kei/Project/Qt/userinfo.h \
-	/Users/kei/Project/Qt/usermanagerdialog.cpp \
-	/Users/kei/Project/Qt/usermanagerdialog.h \
+	/Users/kei/Project/Qt/src/core/database.cpp \
+	/Users/kei/Project/Qt/src/core/database.h \
+	/Users/kei/Project/Qt/src/core/messagefilter.cpp \
+	/Users/kei/Project/Qt/src/core/messagefilter.h \
+	/Users/kei/Project/Qt/src/core/userinfo.cpp \
+	/Users/kei/Project/Qt/src/core/userinfo.h \
+	/Users/kei/Project/Qt/src/main.cpp \
+	/Users/kei/Project/Qt/src/network/chatclient.cpp \
+	/Users/kei/Project/Qt/src/network/chatclient.h \
+	/Users/kei/Project/Qt/src/network/chatserver.cpp \
+	/Users/kei/Project/Qt/src/network/chatserver.h \
+	/Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp \
+	/Users/kei/Project/Qt/src/ui/dialogs/registerdialog.h \
+	/Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp \
+	/Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.h \
+	/Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp \
+	/Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.h \
+	/Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp \
+	/Users/kei/Project/Qt/src/ui/windows/loginwindow.h \
+	/Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp \
+	/Users/kei/Project/Qt/src/ui/windows/mainwindow.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QTimer \

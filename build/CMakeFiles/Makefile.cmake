@@ -10,7 +10,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/kei/Project/Qt/CMakeLists.txt"
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
-  "/Users/kei/Project/Qt/build_cmake.sh.in"
   "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/FindWrapOpenGL.cmake"
   "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
@@ -433,7 +432,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
-  "/Users/kei/Project/Qt/build_cmake.sh"
   "CMakeFiles/ChatRoom_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
@@ -446,6 +444,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ChatRoom.dir/DependInfo.cmake"
+  "CMakeFiles/clean-all.dir/DependInfo.cmake"
   "CMakeFiles/ChatRoom_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/ChatRoom_autogen.dir/DependInfo.cmake"
   )

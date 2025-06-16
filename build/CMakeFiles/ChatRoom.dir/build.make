@@ -93,190 +93,190 @@ CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/build/ChatRoom_autogen/mocs_compilation.cpp -o CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/ChatRoom.dir/main.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/main.cpp.o: /Users/kei/Project/Qt/main.cpp
-CMakeFiles/ChatRoom.dir/main.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChatRoom.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/main.cpp.o -MF CMakeFiles/ChatRoom.dir/main.cpp.o.d -o CMakeFiles/ChatRoom.dir/main.cpp.o -c /Users/kei/Project/Qt/main.cpp
+CMakeFiles/ChatRoom.dir/src/main.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/main.cpp.o: /Users/kei/Project/Qt/src/main.cpp
+CMakeFiles/ChatRoom.dir/src/main.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChatRoom.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/main.cpp.o -MF CMakeFiles/ChatRoom.dir/src/main.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/main.cpp.o -c /Users/kei/Project/Qt/src/main.cpp
 
-CMakeFiles/ChatRoom.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/main.cpp > CMakeFiles/ChatRoom.dir/main.cpp.i
+CMakeFiles/ChatRoom.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/main.cpp > CMakeFiles/ChatRoom.dir/src/main.cpp.i
 
-CMakeFiles/ChatRoom.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/main.cpp -o CMakeFiles/ChatRoom.dir/main.cpp.s
+CMakeFiles/ChatRoom.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/main.cpp -o CMakeFiles/ChatRoom.dir/src/main.cpp.s
 
-CMakeFiles/ChatRoom.dir/mainwindow.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/mainwindow.cpp.o: /Users/kei/Project/Qt/mainwindow.cpp
-CMakeFiles/ChatRoom.dir/mainwindow.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChatRoom.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/mainwindow.cpp.o -MF CMakeFiles/ChatRoom.dir/mainwindow.cpp.o.d -o CMakeFiles/ChatRoom.dir/mainwindow.cpp.o -c /Users/kei/Project/Qt/mainwindow.cpp
+CMakeFiles/ChatRoom.dir/src/core/database.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/core/database.cpp.o: /Users/kei/Project/Qt/src/core/database.cpp
+CMakeFiles/ChatRoom.dir/src/core/database.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChatRoom.dir/src/core/database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/core/database.cpp.o -MF CMakeFiles/ChatRoom.dir/src/core/database.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/core/database.cpp.o -c /Users/kei/Project/Qt/src/core/database.cpp
 
-CMakeFiles/ChatRoom.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/mainwindow.cpp > CMakeFiles/ChatRoom.dir/mainwindow.cpp.i
+CMakeFiles/ChatRoom.dir/src/core/database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/core/database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/core/database.cpp > CMakeFiles/ChatRoom.dir/src/core/database.cpp.i
 
-CMakeFiles/ChatRoom.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/mainwindow.cpp -o CMakeFiles/ChatRoom.dir/mainwindow.cpp.s
+CMakeFiles/ChatRoom.dir/src/core/database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/core/database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/core/database.cpp -o CMakeFiles/ChatRoom.dir/src/core/database.cpp.s
 
-CMakeFiles/ChatRoom.dir/chatclient.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/chatclient.cpp.o: /Users/kei/Project/Qt/chatclient.cpp
-CMakeFiles/ChatRoom.dir/chatclient.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChatRoom.dir/chatclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/chatclient.cpp.o -MF CMakeFiles/ChatRoom.dir/chatclient.cpp.o.d -o CMakeFiles/ChatRoom.dir/chatclient.cpp.o -c /Users/kei/Project/Qt/chatclient.cpp
+CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o: /Users/kei/Project/Qt/src/core/userinfo.cpp
+CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o -MF CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o -c /Users/kei/Project/Qt/src/core/userinfo.cpp
 
-CMakeFiles/ChatRoom.dir/chatclient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/chatclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/chatclient.cpp > CMakeFiles/ChatRoom.dir/chatclient.cpp.i
+CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/core/userinfo.cpp > CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.i
 
-CMakeFiles/ChatRoom.dir/chatclient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/chatclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/chatclient.cpp -o CMakeFiles/ChatRoom.dir/chatclient.cpp.s
+CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/core/userinfo.cpp -o CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.s
 
-CMakeFiles/ChatRoom.dir/chatserver.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/chatserver.cpp.o: /Users/kei/Project/Qt/chatserver.cpp
-CMakeFiles/ChatRoom.dir/chatserver.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChatRoom.dir/chatserver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/chatserver.cpp.o -MF CMakeFiles/ChatRoom.dir/chatserver.cpp.o.d -o CMakeFiles/ChatRoom.dir/chatserver.cpp.o -c /Users/kei/Project/Qt/chatserver.cpp
+CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o: /Users/kei/Project/Qt/src/core/messagefilter.cpp
+CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o -MF CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o -c /Users/kei/Project/Qt/src/core/messagefilter.cpp
 
-CMakeFiles/ChatRoom.dir/chatserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/chatserver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/chatserver.cpp > CMakeFiles/ChatRoom.dir/chatserver.cpp.i
+CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/core/messagefilter.cpp > CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.i
 
-CMakeFiles/ChatRoom.dir/chatserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/chatserver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/chatserver.cpp -o CMakeFiles/ChatRoom.dir/chatserver.cpp.s
+CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/core/messagefilter.cpp -o CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.s
 
-CMakeFiles/ChatRoom.dir/userinfo.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/userinfo.cpp.o: /Users/kei/Project/Qt/userinfo.cpp
-CMakeFiles/ChatRoom.dir/userinfo.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChatRoom.dir/userinfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/userinfo.cpp.o -MF CMakeFiles/ChatRoom.dir/userinfo.cpp.o.d -o CMakeFiles/ChatRoom.dir/userinfo.cpp.o -c /Users/kei/Project/Qt/userinfo.cpp
+CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o: /Users/kei/Project/Qt/src/network/chatclient.cpp
+CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o -MF CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o -c /Users/kei/Project/Qt/src/network/chatclient.cpp
 
-CMakeFiles/ChatRoom.dir/userinfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/userinfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/userinfo.cpp > CMakeFiles/ChatRoom.dir/userinfo.cpp.i
+CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/network/chatclient.cpp > CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.i
 
-CMakeFiles/ChatRoom.dir/userinfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/userinfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/userinfo.cpp -o CMakeFiles/ChatRoom.dir/userinfo.cpp.s
+CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/network/chatclient.cpp -o CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.s
 
-CMakeFiles/ChatRoom.dir/messagefilter.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/messagefilter.cpp.o: /Users/kei/Project/Qt/messagefilter.cpp
-CMakeFiles/ChatRoom.dir/messagefilter.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChatRoom.dir/messagefilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/messagefilter.cpp.o -MF CMakeFiles/ChatRoom.dir/messagefilter.cpp.o.d -o CMakeFiles/ChatRoom.dir/messagefilter.cpp.o -c /Users/kei/Project/Qt/messagefilter.cpp
+CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o: /Users/kei/Project/Qt/src/network/chatserver.cpp
+CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o -MF CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o -c /Users/kei/Project/Qt/src/network/chatserver.cpp
 
-CMakeFiles/ChatRoom.dir/messagefilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/messagefilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/messagefilter.cpp > CMakeFiles/ChatRoom.dir/messagefilter.cpp.i
+CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/network/chatserver.cpp > CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.i
 
-CMakeFiles/ChatRoom.dir/messagefilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/messagefilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/messagefilter.cpp -o CMakeFiles/ChatRoom.dir/messagefilter.cpp.s
+CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/network/chatserver.cpp -o CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.s
 
-CMakeFiles/ChatRoom.dir/database.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/database.cpp.o: /Users/kei/Project/Qt/database.cpp
-CMakeFiles/ChatRoom.dir/database.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChatRoom.dir/database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/database.cpp.o -MF CMakeFiles/ChatRoom.dir/database.cpp.o.d -o CMakeFiles/ChatRoom.dir/database.cpp.o -c /Users/kei/Project/Qt/database.cpp
+CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o: /Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp
+CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o -MF CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o -c /Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp
 
-CMakeFiles/ChatRoom.dir/database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/database.cpp > CMakeFiles/ChatRoom.dir/database.cpp.i
+CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp > CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.i
 
-CMakeFiles/ChatRoom.dir/database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/database.cpp -o CMakeFiles/ChatRoom.dir/database.cpp.s
+CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/ui/windows/loginwindow.cpp -o CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.s
 
-CMakeFiles/ChatRoom.dir/loginwindow.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/loginwindow.cpp.o: /Users/kei/Project/Qt/loginwindow.cpp
-CMakeFiles/ChatRoom.dir/loginwindow.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChatRoom.dir/loginwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/loginwindow.cpp.o -MF CMakeFiles/ChatRoom.dir/loginwindow.cpp.o.d -o CMakeFiles/ChatRoom.dir/loginwindow.cpp.o -c /Users/kei/Project/Qt/loginwindow.cpp
+CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o: /Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp
+CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o -MF CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o -c /Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp
 
-CMakeFiles/ChatRoom.dir/loginwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/loginwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/loginwindow.cpp > CMakeFiles/ChatRoom.dir/loginwindow.cpp.i
+CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp > CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.i
 
-CMakeFiles/ChatRoom.dir/loginwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/loginwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/loginwindow.cpp -o CMakeFiles/ChatRoom.dir/loginwindow.cpp.s
+CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/ui/windows/mainwindow.cpp -o CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.s
 
-CMakeFiles/ChatRoom.dir/registerdialog.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/registerdialog.cpp.o: /Users/kei/Project/Qt/registerdialog.cpp
-CMakeFiles/ChatRoom.dir/registerdialog.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ChatRoom.dir/registerdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/registerdialog.cpp.o -MF CMakeFiles/ChatRoom.dir/registerdialog.cpp.o.d -o CMakeFiles/ChatRoom.dir/registerdialog.cpp.o -c /Users/kei/Project/Qt/registerdialog.cpp
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o: /Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o -MF CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o -c /Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp
 
-CMakeFiles/ChatRoom.dir/registerdialog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/registerdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/registerdialog.cpp > CMakeFiles/ChatRoom.dir/registerdialog.cpp.i
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp > CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.i
 
-CMakeFiles/ChatRoom.dir/registerdialog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/registerdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/registerdialog.cpp -o CMakeFiles/ChatRoom.dir/registerdialog.cpp.s
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/ui/dialogs/registerdialog.cpp -o CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.s
 
-CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o: /Users/kei/Project/Qt/usermanagerdialog.cpp
-CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o -MF CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o.d -o CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o -c /Users/kei/Project/Qt/usermanagerdialog.cpp
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o: /Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o -MF CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o -c /Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp
 
-CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/usermanagerdialog.cpp > CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.i
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp > CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.i
 
-CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/usermanagerdialog.cpp -o CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.s
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/ui/dialogs/usermanagerdialog.cpp -o CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.s
 
-CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
-CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o: /Users/kei/Project/Qt/settingsdialog.cpp
-CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o -MF CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o.d -o CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o -c /Users/kei/Project/Qt/settingsdialog.cpp
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o: CMakeFiles/ChatRoom.dir/flags.make
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o: /Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o: CMakeFiles/ChatRoom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kei/Project/Qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o -MF CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o.d -o CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o -c /Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp
 
-CMakeFiles/ChatRoom.dir/settingsdialog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/settingsdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/settingsdialog.cpp > CMakeFiles/ChatRoom.dir/settingsdialog.cpp.i
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp > CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.i
 
-CMakeFiles/ChatRoom.dir/settingsdialog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/settingsdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/settingsdialog.cpp -o CMakeFiles/ChatRoom.dir/settingsdialog.cpp.s
+CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kei/Project/Qt/src/ui/dialogs/settingsdialog.cpp -o CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.s
 
 # Object files for target ChatRoom
 ChatRoom_OBJECTS = \
 "CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/ChatRoom.dir/main.cpp.o" \
-"CMakeFiles/ChatRoom.dir/mainwindow.cpp.o" \
-"CMakeFiles/ChatRoom.dir/chatclient.cpp.o" \
-"CMakeFiles/ChatRoom.dir/chatserver.cpp.o" \
-"CMakeFiles/ChatRoom.dir/userinfo.cpp.o" \
-"CMakeFiles/ChatRoom.dir/messagefilter.cpp.o" \
-"CMakeFiles/ChatRoom.dir/database.cpp.o" \
-"CMakeFiles/ChatRoom.dir/loginwindow.cpp.o" \
-"CMakeFiles/ChatRoom.dir/registerdialog.cpp.o" \
-"CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o" \
-"CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o"
+"CMakeFiles/ChatRoom.dir/src/main.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/core/database.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o" \
+"CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o"
 
 # External object files for target ChatRoom
 ChatRoom_EXTERNAL_OBJECTS =
 
 bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/ChatRoom_autogen/mocs_compilation.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/main.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/mainwindow.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/chatclient.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/chatserver.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/userinfo.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/messagefilter.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/database.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/loginwindow.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/registerdialog.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/usermanagerdialog.cpp.o
-bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/settingsdialog.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/main.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/core/database.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/core/userinfo.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/core/messagefilter.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/network/chatclient.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/network/chatserver.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/ui/windows/loginwindow.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/ui/windows/mainwindow.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/ui/dialogs/registerdialog.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/ui/dialogs/usermanagerdialog.cpp.o
+bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/src/ui/dialogs/settingsdialog.cpp.o
 bin/ChatRoom.app/Contents/MacOS/ChatRoom: CMakeFiles/ChatRoom.dir/build.make
 bin/ChatRoom.app/Contents/MacOS/ChatRoom: /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Versions/A/QtWidgets
 bin/ChatRoom.app/Contents/MacOS/ChatRoom: /opt/homebrew/opt/qt6/lib/QtNetwork.framework/Versions/A/QtNetwork
